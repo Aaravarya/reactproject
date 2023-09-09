@@ -13,6 +13,9 @@ export const Login = () => {
        const result = await signInWithPopup(auth, provider);
        console.log(result);
        navigate("/");
+    
+    // hi this is aarav 
+    
     };
 
     return (<div>
